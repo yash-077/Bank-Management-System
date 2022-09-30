@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="236" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="131" max="-2" attributes="0"/>
+              <EmptySpace pref="249" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jPanel2" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="434" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="30" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="FAQs -frequently asked question(s)&#xa;&#xa;1.How to &#x2018;Login&#x2019;?&#xa;-&gt; On the &#x2018;Login&#x2019; page, enter your &#x2018;username&#x2019; and &#x2018;password&#x2019;. After entering your credentials, click on &#x2018;login&#x2019; button. If you do not have a username, then click on &#x2018;sign up&#x2019; button.&#xa;&#xa;2.How to &#x2018;Sign Up&#x2019;?&#xa;-&gt; If you are a new user, then click on &#x2018;sign up&#x2019; button. It takes you to &#x2018;sign up&#x2019; page. On &#x2018;sign up&#x2019; page, enter your &#x2018;name&#x2019;, &#x2018;username&#x2019;,&#x2019; password&#x2019; and &#x2018;mobile number&#x2019;. After entering all your credentials, click on &#x2018;sign up&#x2019; button. After clicking on &#x2018;sign up&#x2019; button, your &#x2018;Customer Id&#x2019; will be generated automatically and a message pops which informs about your successful &#x2018;Sign Up&#x2019;,&#xa;&#xa;3.What is an &#x2018;Add Account&#x2019; menu?&#xa;-&gt; It helps you add a new account if you do not have an existing account.&#xa;&#xa;4.How to add a New Account?&#xa;-&gt; Click on &#x2018;Add Account&#x2019; menu, If you have an already existing account then a message will be displayed on the screen informing about your existing account else you will be taken to &#x2018;Add Account&#x2019; page. On &#x2018;Add Account&#x2019; page, your account number will be automatically generated. You have to enter your &#x2018;Customer Id&#x2019; which was automatically generated once you signed up. Also you have to enter your &#x2018;Name&#x2019;, &#x2018;Account type&#x2019; and &#x2018;Balance&#x2019; and then click on &#x201c;Add&#x201d;. &#xa;&#xa;5.What is &#x2018;Transaction&#x2019; menu?&#xa;-&gt; This application lets you choose a mode of transaction from various modes of transaction available such as RTGS, IMPS and Deposit.  &#xa;&#xa;6.What is &#x2018;RTGS&#x2019; mode of transaction?&#xa;-&gt; It is &#x201c;Real Time Gross Settlement&#x201d; commonly called &#x2018;RTGS&#x2019;. &#xa;RTGS features:&#xa;RTGS is available both online and offline&#xa;There is no maximum transfer value for RTGS.&#xa;RTGS allows a minimum transfer value of Rs. 2 lakhs only&#xa;It is a real-time payment service&#xa;RTGS service is available from 8:00 am to 6:00 pm for working days&#xa;There are no inward transaction charges&#xa;&#xa;7.How to perform &#x2018;RTGS&#x2019; transaction?&#xa;-&gt; Click on &#x2018;RTGS&#x2019; menu in &#x2018;Transaction&#x2019; menu. It takes you to &#x2018;RTGS&#x2019; page. On &#x2018;RTGS&#x2019; page, enter your &#x2018;Account number&#x2019;. After entering, click on &#x2018;Find&#x2019; button. After clicking on &#x2018;find&#x2019; button, your &#x2018;balance&#x2019; will be displayed. Once your balance is displayed, enter desired amount to be transferred, beneficiary&#x2019;s account number, and your IFSC code. After entering these details, click on &#x2018;transfer&#x2019;. A message will be displayed informing you regarding successful transaction via RTGS.&#xa;&#xa;8.What is &#x2018;IMPS&#x2019; mode of transaction?&#xa;-&gt; It is &#x201c;Immediate Payment Service&#x201d; commonly called &#x2018;IMPS&#x2019;. &#xa;IMPS features:&#xa;RTGS is available only online&#xa;There is maximum transfer value of only Rs. 2 laks for IMPS&#xa;IMPS allows a minimum transfer value of just Re. 1 &#xa;It is a real-time payment service&#xa;IMPS service is available on all days of year and 24*7 round the clock&#xa;Inward transaction charges are decided by individual member banks and PPIs&#xa;&#xa;9.How to perform &#x2018;IMPS&#x2019; transaction?&#xa;-&gt; Click on &#x2018;IMPS&#x2019; menu in &#x2018;Transaction&#x2019; menu. It takes you to &#x2018;IMPS&#x2019; page. On &#x2018;IMPS&#x2019; page, enter your &#x2018;Account number&#x2019;. After entering, click on &#x2018;Find&#x2019; button. After clicking on &#x2018;Find&#x2019; button, your &#x2018;balance&#x2019; will be displayed. Once your balance is displayed, enter desired amount to be transferred, beneficiary&#x2019;s account number, and your IFSC code. After entering these details, click on &#x2018;transfer&#x2019;. A message will be displayed informing you regarding successful transaction via IMPS.&#xa;&#xa;10. What is &#x2018;Deposit&#x2019; mode of transaction?&#xa;-&gt; This application allows you deposit amount in your account.&#xa;&#xa;11. How to deposit amount into my account?&#xa;-&gt; Click on &#x2018;deposit&#x2019; menu in &#x2018;Transaction&#x2019; menu. On clicking &#x2018;deposit&#x2019; button, &#x2018;deposit&#x2019; page will be displayed. Enter your &#x2018;Account number&#x2019;. After entering, your &#x2018;Customer ID&#x2019;, &#x2018;Date&#x2019; and &#x2018;Balance&#x2019; will be displayed. Now enter the amount to be deposited and click on &#x2018;ok&#x2019;. After clicking on &#x2018;ok&#x2019;, a message pops which informs about successful &#x2018;deposit&#x2019; of desired amount.&#xa;&#xa;12. What is &#x2018;Balance&#x2019; menu?&#xa;-&gt; This application shows current balance in your account.&#xa;&#xa;13.How to check current balance?&#xa;-&gt; Click on &#x2018;Balance&#x2019; menu. It takes you to &#x2018;Balance&#x2019; page. On &#x2018;Balance&#x2019; page, enter your &#x2018;Account number&#x2019;, &#x2018;Customer ID&#x2019; and &#x2018;Name&#x2019;. After entering all the details, click on &#x2018;Find&#x2019; button. After clicking on &#x2018;Find&#x2019; button, your &#x2018;balance&#x2019; will be displayed.&#xa;&#xa;14.What is &#x2018;Cash on Mobile&#x2019; menu?&#xa;-&gt; Mobile phones have become an integral part of our life. This application helps a customer withdraw money from an ATM without using an ATM card by providing a unique code on registered mobile number that expires within a limited time and ensures seamless and safe access to cash.&#xa;&#xa;15.How to use &#x2018;Cash on Mobile&#x2019; feature?&#x9;&#xa;-&gt; Click on &#x2018;Cash on Mobile&#x2019; menu. It takes you to &#x2018;Cash on Mobile&#x2019; page. On &#x2018;Cash on Mobile&#x2019; page, enter your &#x2018;Account number&#x2019;. After entering, click on &#x2018;Find&#x2019; button. After clicking on &#x2018;Find&#x2019; button, your balance will be displayed. Once your balance is displayed, enter desired withdrawal amount and your registered mobile number. After entering these details, click on &#x2018;proceed&#x2019;. A message will be displayed informing you regarding an OTP (One Time Password) sent on your registered mobile number. Using that &#x2018;OTP&#x2019;, you can withdraw cash from nearest ATM.&#xa;&#xa;16. How to &#x2018;Logout&#x2019;?&#xa;-&gt; Once you are done with your work and wish to logout, revert back to &#x2018;MENU&#x2019; page. There is a &#x2018;LOGOUT&#x2019; button on the page. Once you click on the &#x2018;Logout&#x2019; button, you will be taken to &#x2018;Login&#x2019; page.&#xa;&#xa;17. How to &#x2018;Exit&#x2019; the Bank Management System?&#xa;-&gt; If you do not wish to login, click on the &#x2018;exit&#x2019; button. It takes you out of the Bank Management System.&#xa;                                              &#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="267" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Algerian" size="36" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="cc" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="says bank"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
